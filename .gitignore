@@ -1,0 +1,22 @@
+
+# Environment and secret files
+.env
+.env.*
+!.env.example
+
+# Database exports and backups
+*.sql
+backups/
+database_backups/
+
+# Dependencies
+vendor/
+node_modules/
+
+# Temporary files and logs
+tmp/
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
